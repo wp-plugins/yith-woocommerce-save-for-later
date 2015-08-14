@@ -1,0 +1,96 @@
+/*SavedList template*/
+#ywsfl_title_save_list h3{
+
+    font-size: 15px;
+}
+
+#ywsfl_container_list {
+
+    width: 100%;
+    min-height: 100px;
+    max-height: 100%;
+
+}
+
+#ywsfl_container_list .row{
+
+    border-top:1px solid #ccc;
+    clear: left;
+    padding-top:23px;
+    margin-bottom: 33px;
+    height:100px;
+}
+
+
+#ywsfl_container_list .row .delete_col, #ywsfl_container_list .row .sub_container_product {
+
+    float:left;
+}
+
+.row .delete_col{
+
+    position: relative;
+    top:50%;
+
+}
+
+.row .delete_col a
+{
+    display: block;
+    border:1px solid #ccc;
+    color:#ccc;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.row .delete_col a:hover
+{
+    border:1px solid red;
+    color:red;
+}
+
+.row .product_name p{
+    padding: 0;
+    margin: 0;
+}
+.row .img_product, .row .sub_container_product {
+    margin-left: 28px;
+}
+
+.row .display_product_status, .row .product_name .display_price {
+
+}
+
+.row .sub_container_product .product_name .display_name{
+    font-weight: bold;
+
+}
+
+.row .display_product_status .savelist-in-stock {
+    color:green;
+}
+
+.row .display_product_status .savelist-out-of-stock {
+    color:red;
+}
+
+#ywsfl_container_list .variation_name, #ywsfl_container_list .variation_value{
+    padding: 0 0 .25em;
+}
+
+#ywsfl_container_list .variation_name{
+
+    font-weight: 700;
+    margin: 0 4px 0 0;
+}
+
+/* button save for later*/
+.saveforlater_button a{
+
+    text-align: right;
+    font-size: 12px;
+
+}

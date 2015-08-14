@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Save for Later\n"
+"POT-Creation-Date: 2015-07-24 17:11+0100\n"
+"PO-Revision-Date: 2015-07-24 17:11+0100\n"
+"Last-Translator: \n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;_ngettext_noop:1,2;"
+"_n_nooop:1,2;_c,_nc:4c,1,2;_x:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/class.yith-wsfl-install.php:122
+msgctxt "page_slug"
+msgid "saveforlater"
+msgstr ""
+
+#: ../includes/class.yith-wsfl-install.php:123
+#: ../includes/class.yith-wsfl.php:625 ../includes/class.yith-wsfl.php:626
+msgid "Save for later"
+msgstr ""
+
+#: ../includes/class.yith-wsfl-shortcode.php:28
+msgid "Saved for later "
+msgstr ""
+
+#: ../includes/class.yith-wsfl.php:372
+msgid "Product added"
+msgstr ""
+
+#: ../includes/class.yith-wsfl.php:375
+msgid "Product already in Save for later"
+msgstr ""
+
+#: ../includes/class.yith-wsfl.php:411
+msgid "Product deleted from Save for later"
+msgstr ""
+
+#: ../includes/class.yith-wsfl.php:413
+msgid "No product"
+msgstr ""
+
+#: ../includes/class.yith-wsfl.php:533
+msgid ""
+"We are sorry, but this feature is available only if cookies are enabled in "
+"your browser."
+msgstr ""
+
+#: ../includes/class.yith-wsfl.php:534
+msgid "Product correctly added to cart"
+msgstr ""
+
+#: ../includes/class.yith-wsfl.php:618 ../includes/class.yith-wsfl.php:681
+msgid "Settings"
+msgstr ""
+
+#: ../includes/class.yith-wsfl.php:619 ../includes/class.yith-wsfl.php:684
+msgid "Premium Version"
+msgstr ""
+
+#: ../includes/class.yith-wsfl.php:707
+msgid "Plugin Documentation"
+msgstr ""
+
+#: ../init.php:41
+msgid ""
+"YITH WooCommerce Save For Later is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+
+#: ../init.php:54
+msgid ""
+"You can't activate the free version of YITH WooCommerce Save For Later while "
+"you are using the premium one."
+msgstr ""
+
+#: ../plugin-options/general-options.php:13
+msgid "General Settings"
+msgstr ""
+
+#: ../plugin-options/general-options.php:19
+msgid "\"Save for Later\" text"
+msgstr ""
+
+#: ../plugin-options/general-options.php:21
+#: ../plugin-options/general-options.php:22
+#: ../plugin-options/general-options.php:30
+msgid "Save for Later"
+msgstr ""
+
+#: ../plugin-options/general-options.php:24
+msgid "You can set the text for your \"Save for Later\" link"
+msgstr ""
+
+#: ../plugin-options/general-options.php:28
+msgid "Save for Later page"
+msgstr ""
+
+#: ../plugin-options/general-options.php:32
+msgid ""
+"This page contains the [yith_wsfl_saveforlater] shortcode.<br> You can use "
+"this shortcode in other pages!."
+msgstr ""
+
+#: ../templates/saveforlater-view.php:17
+#, php-format
+msgid "1 Product"
+msgid_plural "%s Products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/saveforlater-view.php:56
+msgid "Free!"
+msgstr ""
+
+#: ../templates/saveforlater-view.php:64
+msgid "Out of Stock"
+msgstr ""
+
+#: ../templates/saveforlater-view.php:67
+msgid "In Stock"
+msgstr ""
