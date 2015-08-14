@@ -234,28 +234,28 @@ if ( ! defined( 'ABSPATH' ) ) {
         <div class="landing-container">
             <div class="premium-cta">
                 <p>
-                    <?php echo sprintf( __('Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Save for Later%2$s to benefit from all features!','yith-wcaf'),'<span class="highlight">','</span>' );?>
+                    <?php echo sprintf( __('Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Save for Later%2$s to benefit from all features!','ywsfl'),'<span class="highlight">','</span>' );?>
                 </p>
                 <a href="<?php echo $this->get_premium_landing_uri() ?>" target="_blank" class="premium-cta-button button btn">
-                    <span class="highlight"><?php _e('UPGRADE','yith-wcaf');?></span>
-                    <span><?php _e('to the premium version','yith-wcaf');?></span>
+                    <span class="highlight"><?php _e('UPGRADE','ywsfl');?></span>
+                    <span><?php _e('to the premium version','ywsfl');?></span>
                 </a>
             </div>
         </div>
     </div>
     <div class="one section section-even clear">
-        <h1><?php _e('Premium Features','yith-wcaf');?></h1>
+        <h1><?php _e('Premium Features','ywsfl');?></h1>
         <div class="landing-container">
             <div class="col-1">
-                <img src="<?php echo YWSFL_ASSETS_URL?>/images/01.png" alt="<?php _e( 'Variable products','yith-wcaf') ?>" />
+                <img src="<?php echo YWSFL_ASSETS_URL?>/images/01.png" alt="<?php _e( 'Variable products','ywsfl') ?>" />
             </div>
             <div class="col-2">
                 <div class="section-title">
                     <img src="<?php echo YWSFL_ASSETS_URL?>/images/01-icon.png" alt="icon 01"/>
-                    <h2><?php _e('Variable products','yith-wcaf');?></h2>
+                    <h2><?php _e('Variable products','ywsfl');?></h2>
                 </div>
                 <p>
-                    <?php echo sprintf(__('No product is excluded from plugin\'s features! With the premium version of %1$sYITH WooCommerce Save For Later%2$s your users will be free to add also the product single %1$svariations%2$s to a separated list, and the add them easily to the cart whenever they want.', 'yith-wcaf'), '<b>', '</b>','<br>');?>
+                    <?php echo sprintf(__('No product is excluded from plugin\'s features! With the premium version of %1$sYITH WooCommerce Save For Later%2$s your users will be free to add also the product single %1$svariations%2$s to a separated list, and the add them easily to the cart whenever they want.', 'ywsfl'), '<b>', '</b>','<br>');?>
                 </p>
             </div>
         </div>
@@ -265,29 +265,29 @@ if ( ! defined( 'ABSPATH' ) ) {
             <div class="col-2">
                 <div class="section-title">
                     <img src="<?php echo YWSFL_ASSETS_URL?>/images/02-icon.png" alt="icon 02" />
-                    <h2><?php _e('Add to cart','yith-wcaf');?></h2>
+                    <h2><?php _e('Add to cart','ywsfl');?></h2>
                 </div>
                 <p>
-                    <?php echo sprintf(__('Within an e-shop, users must be always able to complete the purchase easily and in few steps. The first one is the addition of products to the cart.%3$sPurchase the premium version of the plugin and all your users will be free to add products to their %1$scart%2$s from the new list, avoiding the need to come back to product pages.%3$sLess clicks for an easier purchase.', 'yith-wcaf'), '<b>', '</b>','<br>');?>
+                    <?php echo sprintf(__('Within an e-shop, users must be always able to complete the purchase easily and in few steps. The first one is the addition of products to the cart.%3$sPurchase the premium version of the plugin and all your users will be free to add products to their %1$scart%2$s from the new list, avoiding the need to come back to product pages.%3$sLess clicks for an easier purchase.', 'ywsfl'), '<b>', '</b>','<br>');?>
                 </p>
             </div>
             <div class="col-1">
-                <img src="<?php echo YWSFL_ASSETS_URL?>/images/02.png" alt="<?php _e( 'Automatic payment','yith-wcaf') ?>" />
+                <img src="<?php echo YWSFL_ASSETS_URL?>/images/02.png" alt="<?php _e( 'Automatic payment','ywsfl') ?>" />
             </div>
         </div>
     </div>
     <div class="three section section-even clear">
         <div class="landing-container">
             <div class="col-1">
-                <img src="<?php echo YWSFL_ASSETS_URL?>/images/03.png" alt="<?php _e( 'Click Info','yith-wcaf') ?>" />
+                <img src="<?php echo YWSFL_ASSETS_URL?>/images/03.png" alt="<?php _e( 'Click Info','ywsfl') ?>" />
             </div>
             <div class="col-2">
                 <div class="section-title">
                     <img src="<?php echo YWSFL_ASSETS_URL?>/images/03-icon.png" alt="icon 03" />
-                    <h2><?php _e( 'Integration with YITH WooCommerce Wishlist','yith-wcaf');?></h2>
+                    <h2><?php _e( 'Integration with YITH WooCommerce Wishlist','ywsfl');?></h2>
                 </div>
                 <p>
-<?php echo sprintf(__('Wishlists are nowadays a fundamental point for online shops, as they give users the freedom to save the list of products they are interested into. Complete plugin\'s features with %1$sYITH WooCommerce Wishlist%2$s, and users will be free to add to their wishlists all products saved for later.%3$sA must have for this business, you can\'t miss it!', 'yith-wcaf'), '<b>', '</b>', '<br>');?>
+<?php echo sprintf(__('Wishlists are nowadays a fundamental point for online shops, as they give users the freedom to save the list of products they are interested into. Complete plugin\'s features with %1$sYITH WooCommerce Wishlist%2$s, and users will be free to add to their wishlists all products saved for later.%3$sA must have for this business, you can\'t miss it!', 'ywsfl'), '<b>', '</b>', '<br>');?>
 
                 </p>
             </div>
@@ -297,11 +297,11 @@ if ( ! defined( 'ABSPATH' ) ) {
         <div class="landing-container">
             <div class="premium-cta">
                 <p>
-                    <?php echo sprintf( __('Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Save for Later%2$s to benefit from all features!','yith-wcaf'),'<span class="highlight">','</span>' );?>
+                    <?php echo sprintf( __('Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Save for Later%2$s to benefit from all features!','ywsfl'),'<span class="highlight">','</span>' );?>
                 </p>
                 <a href="<?php echo $this->get_premium_landing_uri() ?>" target="_blank" class="premium-cta-button button btn">
-                    <span class="highlight"><?php _e('UPGRADE','yith-wcaf');?></span>
-                    <span><?php _e('to the premium version','yith-wcaf');?></span>
+                    <span class="highlight"><?php _e('UPGRADE','ywsfl');?></span>
+                    <span><?php _e('to the premium version','ywsfl');?></span>
                 </a>
             </div>
         </div>
