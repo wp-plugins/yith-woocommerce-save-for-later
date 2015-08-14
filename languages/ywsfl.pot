@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YITH WooCommerce Save for Later\n"
-"POT-Creation-Date: 2015-07-24 17:11+0100\n"
-"PO-Revision-Date: 2015-07-24 17:11+0100\n"
+"POT-Creation-Date: 2015-08-14 16:07+0100\n"
+"PO-Revision-Date: 2015-08-14 16:07+0100\n"
 "Last-Translator: \n"
 "Language-Team: Yithemes <plugins@yithemes.com>\n"
 "Language: en\n"
@@ -108,6 +108,74 @@ msgstr ""
 msgid ""
 "This page contains the [yith_wsfl_saveforlater] shortcode.<br> You can use "
 "this shortcode in other pages!."
+msgstr ""
+
+#: ../templates/admin/premium.php:237 ../templates/admin/premium.php:300
+#, php-format
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Save for Later"
+"%2$s to benefit from all features!"
+msgstr ""
+
+#: ../templates/admin/premium.php:240 ../templates/admin/premium.php:303
+msgid "UPGRADE"
+msgstr ""
+
+#: ../templates/admin/premium.php:241 ../templates/admin/premium.php:304
+msgid "to the premium version"
+msgstr ""
+
+#: ../templates/admin/premium.php:247
+msgid "Premium Features"
+msgstr ""
+
+#: ../templates/admin/premium.php:250 ../templates/admin/premium.php:255
+msgid "Variable products"
+msgstr ""
+
+#: ../templates/admin/premium.php:258
+#, php-format
+msgid ""
+"No product is excluded from plugin's features! With the premium version of "
+"%1$sYITH WooCommerce Save For Later%2$s your users will be free to add also "
+"the product single %1$svariations%2$s to a separated list, and the add them "
+"easily to the cart whenever they want."
+msgstr ""
+
+#: ../templates/admin/premium.php:268
+msgid "Add to cart"
+msgstr ""
+
+#: ../templates/admin/premium.php:271
+#, php-format
+msgid ""
+"Within an e-shop, users must be always able to complete the purchase easily "
+"and in few steps. The first one is the addition of products to the cart."
+"%3$sPurchase the premium version of the plugin and all your users will be "
+"free to add products to their %1$scart%2$s from the new list, avoiding the "
+"need to come back to product pages.%3$sLess clicks for an easier purchase."
+msgstr ""
+
+#: ../templates/admin/premium.php:275
+msgid "Automatic payment"
+msgstr ""
+
+#: ../templates/admin/premium.php:282
+msgid "Click Info"
+msgstr ""
+
+#: ../templates/admin/premium.php:287
+msgid "Integration with YITH WooCommerce Wishlist"
+msgstr ""
+
+#: ../templates/admin/premium.php:290
+#, php-format
+msgid ""
+"Wishlists are nowadays a fundamental point for online shops, as they give "
+"users the freedom to save the list of products they are interested into. "
+"Complete plugin's features with %1$sYITH WooCommerce Wishlist%2$s, and users "
+"will be free to add to their wishlists all products saved for later.%3$sA "
+"must have for this business, you can't miss it!"
 msgstr ""
 
 #: ../templates/saveforlater-view.php:17
