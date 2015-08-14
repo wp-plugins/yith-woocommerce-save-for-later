@@ -3,8 +3,8 @@
 Contributors: yithemes
 Tags: WooCommerce, ecommerce, save for later, WooCommerce save for later, cart, products,  save for later cart, wordpress, shortcode, save for later shortcode, shop, yith, yit, yithemes
 Requires at least: 3.5.1
-Tested up to: 4.2.3
-Stable tag: 1.0.0
+Tested up to: 4.2.4
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,7 +31,7 @@ For a more detailed list of options and features of the plugin, please read the 
 == Screenshots ==
 1. Admin: general settings
 2. Front end: "Save for later" link for products in cart page
-3. Front end: Save for later list 
+3. Front end: Save for later list
 
 = Installation =
 
@@ -50,6 +50,15 @@ You will be able to add your "Save For Later" list in your pages thanks to a use
 
 == Changelog ==
 
+= 1.0.1 =
+
+* Added: Support to WooCommerce 2.4
+* Updated: Plugin core framework
+
 = 1.0.0 =
 
 * Initial release
+
+== Upgrade Notice ==
+
+Last Stable Tag 1.0.1

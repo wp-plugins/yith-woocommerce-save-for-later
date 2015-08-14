@@ -59,7 +59,7 @@ if ( ! class_exists( 'YITH_WC_Save_For_Later' ) ) {
             //add row meta
             add_filter( 'plugin_row_meta', array( $this, 'plugin_row_meta' ), 10, 4 );
             //  Add action menu
-           // add_action( 'yith_wc_save_for_later_premium', array( $this, 'premium_tab' ) );
+            add_action( 'yith_wc_save_for_later_premium', array( $this, 'premium_tab' ) );
             add_action( 'admin_menu', array( $this, 'add_menu_page' ), 5 );
 
             add_action( 'wp_enqueue_scripts', array( $this, 'include_free_style_and_script' ) );
@@ -616,7 +616,7 @@ if ( ! class_exists( 'YITH_WC_Save_For_Later' ) ) {
 
             $admin_tabs = apply_filters( 'ywsfl_add_plugin_tab', array(
                 'general'   =>  __( 'Settings', 'ywsfl' ),
-              //  'premium-landing' => __( 'Premium Version', 'ywcca' )
+                'premium-landing' => __( 'Premium Version', 'ywcca' )
             ) );
 
             $args = array(
@@ -719,7 +719,7 @@ if ( ! class_exists( 'YITH_WC_Save_For_Later' ) ) {
          * @return  string The premium landing link
          */
         public function get_premium_landing_uri(){
-            return defined( 'YITH_REFER_ID' ) ? $this->premium_landing_url . '?refer_id=' . YITH_REFER_ID : $this->premium_landing_url;
+            return defined( 'YITH_REFER_ID' ) ? $this->premium_landing_url . '?refer_id=' . YITH_REFER_ID : $this->premium_landing_url.'?refer_id=1030585';
         }
     }
 

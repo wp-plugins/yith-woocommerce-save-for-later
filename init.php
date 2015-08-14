@@ -3,7 +3,7 @@
  * Plugin Name: YITH WooCommerce Save for Later
  * Plugin URI: http://yithemes.com/themes/plugins/yith-woocommerce-save-for-later/
  * Description: YITH WooCommerce Save for Later allows you to add your product in save-list.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Yithemes
  * Author URI: http://yithemes.com/
  * Text Domain: ywsfl
@@ -11,7 +11,7 @@
  *
  * @author Your Inspiration Themes
  * @package YITH WooCommerce Save for Later
- * @version 1.0.0
+ * @version 1.0.1
  */
 
 /*  Copyright 2013  Your Inspiration Themes  (email : plugins@yithemes.com)
@@ -72,7 +72,7 @@ load_plugin_textdomain( 'ywsfl', false, dirname( plugin_basename( __FILE__ ) ) .
 
 
 if ( !defined( 'YWSFL_VERSION' ) ) {
-    define( 'YWSFL_VERSION', '1.0.0' );
+    define( 'YWSFL_VERSION', '1.0.1' );
 }
 
 if ( !defined( 'YWSFL_FREE_INIT' ) ) {
@@ -122,7 +122,7 @@ if (! function_exists( 'YITH_Woocommerce_Save_For_Later' ) ){
          require_once( YWSFL_INC . 'class.yith-wsfl-shortcode.php');
 
          if( defined(' YWSFL_PREMIUM' ) && file_exists( YWCSFL_INC . 'class.yith-wsfl-premium.php' ) ){
-
+             require_once( YWSFL_INC . 'class.yith-wsfl-premium.php' );
              return YITH_WC_Save_For_Later_Premium::get_instance();
          }
          return YITH_WC_Save_For_Later::get_instance();
